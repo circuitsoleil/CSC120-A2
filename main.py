@@ -1,5 +1,4 @@
 from oop_resaleshop import *
-
 def main():
 
     # Print a little banner

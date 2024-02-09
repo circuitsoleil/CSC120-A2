@@ -10,6 +10,7 @@ class Computer:
     year_made: int
     price: int
 
+    #initialize computer object with attributes
     def __init__(self, 
                  description, 
                  processor_type, 
@@ -26,8 +27,10 @@ class Computer:
         self.year_made = year_made
         self.price = price
 
+    #New price method, changes price attribute of new computer
     def update_price(self, new_price:int):
         self.price = new_price
 
+    #Update operating system method, changes OS attribute of new computer
     def update_OS(self, new_OS:str):
         self.operating_system = new_OS
