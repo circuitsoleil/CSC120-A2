@@ -1,6 +1,6 @@
 class Computer:
 
-    #construst computer object with attributes
+    #construct computer object with attributes
     def __init__(self, 
                  description, 
                  processor_type, 
